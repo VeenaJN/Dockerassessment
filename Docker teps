@@ -1,0 +1,13 @@
+Create a file with name Dockerfile.
+
+Edit the Dockerfile(Line comments are given in Dockerfile).
+
+create a small sample file(.html) to test through the docker 
+
+Build the docker image with following command
+docker build -t my-basic-details .
+
+After that run the docker container with following command
+docker run -p 8080:80 my-basic-details
+
+hit the web browser with port to check thge result.
